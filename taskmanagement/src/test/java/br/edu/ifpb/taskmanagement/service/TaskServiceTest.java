@@ -17,7 +17,7 @@ import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import br.edu.ifpb.taskmanagement.model.entity.TaskEntity;
 import br.edu.ifpb.taskmanagement.model.repository.TaskRepository;
 
-@SpringBootTest(classes = TaskService.class)
+@SpringBootTest
 public class TaskServiceTest {
 
     @MockitoBean
